@@ -31,7 +31,7 @@ public class GameBoard : MonoBehaviour
                         totalPellets++;
                     }
                 }
-               // Debug.Log("Found PacMan at:" + pos);
+                Debug.Log("Found PacMan at:" + pos);
             } else
             {
                 board[(int)pos.x, (int)pos.y] = o;

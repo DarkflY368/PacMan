@@ -27,7 +27,7 @@ public class PacMan : MonoBehaviour
         if (node != null)
         {
             currentNode = node;
-            Debug.Log (currentNode);
+           // Debug.Log (currentNode);
         }
 
         direction = Vector2.left;
@@ -37,7 +37,7 @@ public class PacMan : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        Debug.Log("SCORE" + GameObject.Find("game").GetComponent<GameBoard>().score);
+       // Debug.Log("SCORE" + GameObject.Find("game").GetComponent<GameBoard>().score);
 
         CheckInput();
 
